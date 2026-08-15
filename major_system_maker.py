@@ -19,7 +19,7 @@ def generate_regex(number_input, exclude_z_ending=False):
         '4': '[rɹɝ]',
         '5': '[lɫ]',
         '6': '(?:tʃ|dʒ|ʃ|ʒ)', # we want "dʒ" (same for "tʃ") to be seen as one unit, instead of "d" and "ʒ" being treated as two separate units.
-        '7': '[kɡŋ]',
+        '7': '[kgɡŋ]',
         '8': '[fv]',
         '9': '[pb]'
     }
